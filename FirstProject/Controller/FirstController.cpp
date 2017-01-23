@@ -1,16 +1,18 @@
 //
-//  FirstRunner.cpp
+//  FirstController.cpp
 //  FirstProject
 //
 //  Created by Powley, Matthew on 1/23/17.
 //  Copyright © 2017 Powley, Matthew. All rights reserved.
 //
 
+
+#include <iostream>
 #include "FirstController.h"
 
-int main()
+using namespace std;
+
+void FirstController :: start()
 {
-    FirstController * app = new FirstController();
-    app->start();
-    return 0;
+    cout << "goodbye world" << endl;
 }
